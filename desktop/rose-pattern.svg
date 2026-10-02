@@ -1,0 +1,98 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.36">
+    <!-- 主蔷薇花（中心） -->
+    <g transform="translate(48, 48)">
+      <!-- 中心花蕊 -->
+      <circle cx="0" cy="0" r="5" fill="url(#mainCenter)"/>
+      
+      <!-- 内层花瓣 -->
+      <ellipse cx="0" cy="-10" rx="6" ry="10" fill="url(#mainPetal1)" opacity="0.9"/>
+      <ellipse cx="9.5" cy="-3" rx="6" ry="10" fill="url(#mainPetal1)" transform="rotate(72 0 0)" opacity="0.9"/>
+      <ellipse cx="5.9" cy="8.1" rx="6" ry="10" fill="url(#mainPetal1)" transform="rotate(144 0 0)" opacity="0.9"/>
+      <ellipse cx="-5.9" cy="8.1" rx="6" ry="10" fill="url(#mainPetal1)" transform="rotate(216 0 0)" opacity="0.9"/>
+      <ellipse cx="-9.5" cy="-3" rx="6" ry="10" fill="url(#mainPetal1)" transform="rotate(288 0 0)" opacity="0.9"/>
+      
+      <!-- 外层花瓣 -->
+      <ellipse cx="0" cy="-14" rx="7" ry="12" fill="url(#mainPetal2)" opacity="0.8"/>
+      <ellipse cx="13.3" cy="-4.3" rx="7" ry="12" fill="url(#mainPetal2)" transform="rotate(72 0 0)" opacity="0.8"/>
+      <ellipse cx="8.2" cy="11.3" rx="7" ry="12" fill="url(#mainPetal2)" transform="rotate(144 0 0)" opacity="0.8"/>
+      <ellipse cx="-8.2" cy="11.3" rx="7" ry="12" fill="url(#mainPetal2)" transform="rotate(216 0 0)" opacity="0.8"/>
+      <ellipse cx="-13.3" cy="-4.3" rx="7" ry="12" fill="url(#mainPetal2)" transform="rotate(288 0 0)" opacity="0.8"/>
+    </g>
+    
+    <!-- 左上小蔷薇 -->
+    <g transform="translate(24, 24)">
+      <circle cx="0" cy="0" r="3" fill="url(#smallCenter)"/>
+      <ellipse cx="0" cy="-6" rx="4" ry="7" fill="url(#smallPetal)" opacity="0.7"/>
+      <ellipse cx="5.7" cy="-1.8" rx="4" ry="7" fill="url(#smallPetal)" transform="rotate(72 0 0)" opacity="0.7"/>
+      <ellipse cx="3.5" cy="4.9" rx="4" ry="7" fill="url(#smallPetal)" transform="rotate(144 0 0)" opacity="0.7"/>
+      <ellipse cx="-3.5" cy="4.9" rx="4" ry="7" fill="url(#smallPetal)" transform="rotate(216 0 0)" opacity="0.7"/>
+      <ellipse cx="-5.7" cy="-1.8" rx="4" ry="7" fill="url(#smallPetal)" transform="rotate(288 0 0)" opacity="0.7"/>
+    </g>
+    
+    <!-- 右下小蔷薇 -->
+    <g transform="translate(72, 72)">
+      <circle cx="0" cy="0" r="2.5" fill="url(#smallCenter)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="6" fill="url(#smallPetal)" opacity="0.6"/>
+      <ellipse cx="4.8" cy="-1.5" rx="3.5" ry="6" fill="url(#smallPetal)" transform="rotate(72 0 0)" opacity="0.6"/>
+      <ellipse cx="2.9" cy="4.1" rx="3.5" ry="6" fill="url(#smallPetal)" transform="rotate(144 0 0)" opacity="0.6"/>
+      <ellipse cx="-2.9" cy="4.1" rx="3.5" ry="6" fill="url(#smallPetal)" transform="rotate(216 0 0)" opacity="0.6"/>
+      <ellipse cx="-4.8" cy="-1.5" rx="3.5" ry="6" fill="url(#smallPetal)" transform="rotate(288 0 0)" opacity="0.6"/>
+    </g>
+    
+    <!-- 叶片装饰 -->
+    <path d="M35 60 Q30 70 25 75" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M61 60 Q66 70 71 75" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <ellipse cx="23" cy="76" rx="4" ry="7" fill="url(#leaf)" transform="rotate(-30 23 76)" opacity="0.6"/>
+    <ellipse cx="73" cy="76" rx="4" ry="7" fill="url(#leaf)" transform="rotate(30 73 76)" opacity="0.6"/>
+    
+    <!-- 花苞点缀 -->
+    <circle cx="20" cy="30" r="2" fill="#DDB4FF" opacity="0.5"/>
+    <circle cx="76" cy="30" r="1.5" fill="#C896FF" opacity="0.4"/>
+    <circle cx="30" cy="80" r="1.5" fill="#DDB4FF" opacity="0.4"/>
+  </g>
+  
+  <defs>
+    <!-- 主花中心 -->
+    <radialGradient id="mainCenter">
+      <stop offset="0%" stop-color="#FFE4A0"/>
+      <stop offset="50%" stop-color="#FFD782"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </radialGradient>
+    
+    <!-- 主花内层花瓣 -->
+    <linearGradient id="mainPetal1" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF"/>
+      <stop offset="40%" stop-color="#DDB4FF"/>
+      <stop offset="70%" stop-color="#C896FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    
+    <!-- 主花外层花瓣 -->
+    <linearGradient id="mainPetal2" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#F3E8FF"/>
+      <stop offset="30%" stop-color="#E9D5FF"/>
+      <stop offset="60%" stop-color="#DDB4FF"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </linearGradient>
+    
+    <!-- 小花中心 -->
+    <radialGradient id="smallCenter">
+      <stop offset="0%" stop-color="#FFD782"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </radialGradient>
+    
+    <!-- 小花花瓣 -->
+    <linearGradient id="smallPetal" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF"/>
+      <stop offset="50%" stop-color="#DDB4FF"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </linearGradient>
+    
+    <!-- 叶片 -->
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+</svg>

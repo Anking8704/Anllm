@@ -1,0 +1,9 @@
+openharness-ai==0.1.9
+PySide6-Essentials==6.11.2
+shiboken6==6.11.2
+httpx==0.28.1
+pydantic==2.13.5
+playwright==1.63.0
+comtypes==1.4.17
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.8

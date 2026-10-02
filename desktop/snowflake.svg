@@ -1,0 +1,41 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.2">
+    <!-- 中心六角星 -->
+    <path d="M24 8 L24 40" stroke="url(#snow1)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M13.072 16 L34.928 32" stroke="url(#snow2)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M13.072 32 L34.928 16" stroke="url(#snow3)" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- 装饰分支 -->
+    <path d="M24 8 L21 11 M24 8 L27 11" stroke="#C7A354" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M24 40 L21 37 M24 40 L27 37" stroke="#FFD782" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M13.072 16 L15 13 M13.072 16 L11 18" stroke="#C7A354" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M34.928 32 L33 35 M34.928 32 L37 30" stroke="#FFD782" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M13.072 32 L11 30 M13.072 32 L15 35" stroke="#FFE4A0" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M34.928 16 L37 18 M34.928 16 L33 13" stroke="#FFE4A0" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- 中心宝石 -->
+    <circle cx="24" cy="24" r="4" fill="url(#snowCenter)"/>
+    <circle cx="24" cy="24" r="2" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+  <defs>
+    <linearGradient id="snow1" x1="24" y1="8" x2="24" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C7A354"/>
+      <stop offset="50%" stop-color="#FFD782"/>
+      <stop offset="100%" stop-color="#C7A354"/>
+    </linearGradient>
+    <linearGradient id="snow2" x1="13.072" y1="16" x2="34.928" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD782"/>
+      <stop offset="50%" stop-color="#C7A354"/>
+      <stop offset="100%" stop-color="#FFE4A0"/>
+    </linearGradient>
+    <linearGradient id="snow3" x1="13.072" y1="32" x2="34.928" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE4A0"/>
+      <stop offset="50%" stop-color="#FFD782"/>
+      <stop offset="100%" stop-color="#C7A354"/>
+    </linearGradient>
+    <radialGradient id="snowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD782"/>
+      <stop offset="100%" stop-color="#C7A354"/>
+    </radialGradient>
+  </defs>
+</svg>

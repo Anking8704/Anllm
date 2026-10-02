@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.25">
+    <!-- 主闪光星 -->
+    <path d="M12 2 L13 8 L19 9 L13 10 L12 16 L11 10 L5 9 L11 8 Z" fill="url(#sparkle1)"/>
+    <!-- 小装饰星 -->
+    <circle cx="18" cy="6" r="1.5" fill="#FFD782" opacity="0.8"/>
+    <circle cx="6" cy="18" r="1" fill="#FFE4A0" opacity="0.6"/>
+  </g>
+  <defs>
+    <linearGradient id="sparkle1" x1="5" y1="2" x2="19" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD782"/>
+      <stop offset="50%" stop-color="#FFF4DC"/>
+      <stop offset="100%" stop-color="#FFE4A0"/>
+    </linearGradient>
+  </defs>
+</svg>

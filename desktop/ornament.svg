@@ -1,0 +1,27 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.18">
+    <!-- 装饰性花纹 -->
+    <path d="M60 20 Q80 30 80 50 Q80 70 60 80 Q40 70 40 50 Q40 30 60 20 Z" stroke="url(#ornament1)" stroke-width="2" fill="none"/>
+    <path d="M60 30 Q70 35 70 50 Q70 65 60 70 Q50 65 50 50 Q50 35 60 30 Z" stroke="url(#ornament2)" stroke-width="1.5" fill="none"/>
+    
+    <!-- 顶部装饰点 -->
+    <circle cx="60" cy="20" r="3" fill="#FFD782" opacity="0.6"/>
+    <circle cx="50" cy="25" r="2" fill="#C7A354" opacity="0.5"/>
+    <circle cx="70" cy="25" r="2" fill="#FFE4A0" opacity="0.5"/>
+    
+    <!-- 侧边小星星 -->
+    <path d="M35 50 L36 52 L38 53 L36 54 L35 56 L34 54 L32 53 L34 52 Z" fill="#C7A354" opacity="0.6"/>
+    <path d="M85 50 L86 52 L88 53 L86 54 L85 56 L84 54 L82 53 L84 52 Z" fill="#FFD782" opacity="0.6"/>
+  </g>
+  <defs>
+    <linearGradient id="ornament1" x1="40" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD782"/>
+      <stop offset="50%" stop-color="#C7A354"/>
+      <stop offset="100%" stop-color="#FFD782"/>
+    </linearGradient>
+    <linearGradient id="ornament2" x1="50" y1="30" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C7A354"/>
+      <stop offset="100%" stop-color="#FFE4A0"/>
+    </linearGradient>
+  </defs>
+</svg>

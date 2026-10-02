@@ -1,0 +1,65 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.42">
+    <!-- 中心花蕊 -->
+    <circle cx="32" cy="32" r="4" fill="url(#roseCenter)"/>
+    
+    <!-- 内层花瓣（5片） -->
+    <ellipse cx="32" cy="24" rx="5" ry="8" fill="url(#petal1)" transform="rotate(0 32 32)"/>
+    <ellipse cx="32" cy="24" rx="5" ry="8" fill="url(#petal1)" transform="rotate(72 32 32)"/>
+    <ellipse cx="32" cy="24" rx="5" ry="8" fill="url(#petal1)" transform="rotate(144 32 32)"/>
+    <ellipse cx="32" cy="24" rx="5" ry="8" fill="url(#petal1)" transform="rotate(216 32 32)"/>
+    <ellipse cx="32" cy="24" rx="5" ry="8" fill="url(#petal1)" transform="rotate(288 32 32)"/>
+    
+    <!-- 外层花瓣（5片，更大） -->
+    <ellipse cx="32" cy="20" rx="6" ry="10" fill="url(#petal2)" transform="rotate(36 32 32)"/>
+    <ellipse cx="32" cy="20" rx="6" ry="10" fill="url(#petal2)" transform="rotate(108 32 32)"/>
+    <ellipse cx="32" cy="20" rx="6" ry="10" fill="url(#petal2)" transform="rotate(180 32 32)"/>
+    <ellipse cx="32" cy="20" rx="6" ry="10" fill="url(#petal2)" transform="rotate(252 32 32)"/>
+    <ellipse cx="32" cy="20" rx="6" ry="10" fill="url(#petal2)" transform="rotate(324 32 32)"/>
+    
+    <!-- 装饰性叶片 -->
+    <path d="M28 44 Q26 50 22 52" stroke="url(#stem)" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M36 44 Q38 50 42 52" stroke="url(#stem)" stroke-width="1.5" fill="none" opacity="0.6"/>
+    
+    <!-- 小花苞装饰 -->
+    <circle cx="18" cy="18" r="3" fill="url(#bud)" opacity="0.7"/>
+    <circle cx="46" cy="18" r="2.5" fill="url(#bud)" opacity="0.6"/>
+    <circle cx="18" cy="46" r="2" fill="url(#bud)" opacity="0.5"/>
+  </g>
+  
+  <defs>
+    <!-- 花蕊渐变（金色中心） -->
+    <radialGradient id="roseCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD782"/>
+      <stop offset="50%" stop-color="#FFC850"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </radialGradient>
+    
+    <!-- 内层花瓣渐变（紫色为主） -->
+    <linearGradient id="petal1" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#DDB4FF"/>
+      <stop offset="50%" stop-color="#C896FF"/>
+      <stop offset="100%" stop-color="#B87EFF"/>
+    </linearGradient>
+    
+    <!-- 外层花瓣渐变（浅紫色） -->
+    <linearGradient id="petal2" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF"/>
+      <stop offset="30%" stop-color="#DDB4FF"/>
+      <stop offset="70%" stop-color="#C896FF"/>
+      <stop offset="100%" stop-color="#B87EFF"/>
+    </linearGradient>
+    
+    <!-- 茎叶渐变 -->
+    <linearGradient id="stem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </linearGradient>
+    
+    <!-- 花苞渐变 -->
+    <radialGradient id="bud" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DDB4FF"/>
+      <stop offset="100%" stop-color="#C896FF"/>
+    </radialGradient>
+  </defs>
+</svg>
